@@ -1,0 +1,66 @@
+.cabecalho {
+    display: flex;
+    background-color: var(--section-bg);
+    justify-content: space-around;
+    height: 52px;
+    padding: 0 6rem;
+}
+
+.cabecalho nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+
+.cabecalho input {
+    width: 280px;
+    height: 34px;
+    background: var(--cor-pesquisa);
+    border: none;
+    border-radius: .3rem;
+    padding-left: 2.4rem;
+}
+
+.navbar__pesquisa::placeholder {
+    font-size: 14px;
+    color: var(--cor-branco);
+    font-weight: 200;
+}
+
+.navbar__busca{
+    width: 370px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+.navbar__logo-linkedin {
+    margin-right: 8px;
+}
+
+.navbar__logo-busca {
+    position: absolute;
+    left: 50px;
+}
+
+.navbar__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 52px;
+}
+
+.navbar__item a {
+    font-size: 12px;
+    font-weight: 200;
+    text-decoration: none;
+    color: var(--cor-branco);
+}
+
+.navbar__item:last-child{
+    margin-left: .2rem;
+    border-left: 1px solid var(--cor-branco);
+  }

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LinkedIn</title>
-    <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,17 +12,59 @@
 
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <div class="navbar__busca">
+            <img src="/img/logo-linkedin.svg" class="navbar__logo-linkedin" alt="Logo do LinkedIn">
+            <img src="/img/icone-busca.svg" class="navbar__logo-busca" alt="Ícone de pesquisa'">
+            <input type="search" class="navbar__pesquisa" placeholder="Pesquisar">
+        </div>
+        
+        <nav>
+            <div class="navbar__item">
+                <a href="#">
+                    <img src="/img/icone-inicio.svg" alt="Logo do Início">
+                    <a href="#">Início</a>
+                </a>
+            </div>
+            <div class="navbar__item">
+                <a href="#">
+                    <img src="/img/icone-minha-rede.svg" alt="Logo do Início">
+                    <a href="#">Minha rede</a>
+                </a>
+            </div>
+            <div class="navbar__item">
+                <a href="#">
+                    <img src="/img/icone-vagas.svg" alt="Logo do Início">
+                    <a href="#">Vagas</a>
+                </a>
+            </div>
+            <div class="navbar__item">
+                <a href="#">
+                    <img src="/img/icone-mensagens.svg" alt="Logo do Início">
+                    <a href="#">Mensagens</a>
+                </a>
+            </div>
+            <div class="navbar__item">
+                <a href="#">
+                    <img src="/img/icone-notificacoes.svg" alt="Logo do Início">
+                    <a href="#">Notificações</a>
+                </a>
+            </div>
+            <div class="navbar__item">
+                <a href="#">
+                    <img src="/img/icone-solucoes.svg" alt="Logo do Início">
+                    <a href="#">Soluções</a>
+                </a>
+            </div>
+        </nav>
     </header>
 
     <main>
         <div class="perfil">
-
             <section class="banner__perfil">
                 <img src="/img/Capa img.png" alt="imagem do VSCode com alguns arquivos">
-                <div class="perfil-foto-wrap">
-                    <div class="perfil-foto">   
+                <div class="perfil__foto-wrap">
+                    <div class="perfil__foto">   
                       <img src="/img/Perfil.JPG" alt="Foto de perfil">
                       <span class="online"></span>
                     </div>
@@ -58,27 +99,15 @@
                         </li>
                     </ul>
                 </div>
-
             </section>
-
-
-
-
-
         </div>
 
 
 
 
-
-
-        <div class="main__pessoas">
-
-        </div>
-    </main>
-    
+    </main> 
+       
     <footer>
-
     </footer>
 </body>
 </html>
