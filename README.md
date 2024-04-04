@@ -15,7 +15,7 @@
 # 📌 Status do projeto: <i>Em Andamento</i>
 
 <li> Day 01 - Seção: Informações do Perfil ✅
-<li> Day 02 - Navbar
+<li> Day 02 - Navbar ✅
 <li> Day 03 - Publicações em Destaque
 <li> Day 04 - Seção: Atividades e Sobre
 <li> Day 05 - Seção: Experiências
