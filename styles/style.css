@@ -2,6 +2,8 @@
 @import url('./navbar.css');
 @import url('./perfil.css');
 @import url('./destaques.css');
+@import url('./atividades.css');
+@import url('./sugestoes.css');
 
 :root {
     --section-bg: #1B2226;

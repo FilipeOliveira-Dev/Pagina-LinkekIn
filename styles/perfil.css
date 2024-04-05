@@ -10,10 +10,10 @@
 .banner__perfil {
     background-color: var(--section-bg);
     border-radius: 14px;
-    width: 780px;     
 }
 
 .banner {
+    width: 780px;  
     padding: 16px;
 }
 
@@ -74,8 +74,8 @@
     gap: 8px;
 }
 
-.conexoes__seguidores,
-.conexoes__conexoes {
+.dados__seguidores,
+.dados__conexoes {
     color: var(--cor-azul);
     font-size: 14px;
     text-decoration: none;
