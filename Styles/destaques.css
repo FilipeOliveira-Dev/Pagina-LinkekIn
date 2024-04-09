@@ -1,0 +1,52 @@
+.destaques {
+    display: flex;
+    gap: 16px;
+}
+
+.container__destaques {
+    display: flex;
+    flex-direction: column;
+    border: .5px solid var(--cor-cinza);
+    border-radius: 14px;
+    padding: 16px;
+    gap: 8px;
+}
+
+.banner__titulo {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.banner__topico {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--cor-cinza);
+}
+
+.banner__legenda {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.container__comentarios,
+.reacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: var(--cor-cinza);
+    gap: 6px;
+}
+
+.banner__imagem {
+    margin-top: .4rem;
+    width: 100%;
+    height: 152px;
+    object-fit: cover; 
+}
+
+
+
+
+
+
