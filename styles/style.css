@@ -4,6 +4,7 @@
 @import url('./destaques.css');
 @import url('./atividades.css');
 @import url('./sugestoes.css');
+@import url('./experiencias.css');
 
 :root {
     --section-bg: #1B2226;
