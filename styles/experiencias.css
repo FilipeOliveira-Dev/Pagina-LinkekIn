@@ -6,10 +6,18 @@
     align-items: center;
   }
 
-  ul.experiencias__titulo li a img{
+.experiencias__logo {
     width: 48px;
     height: 48px;
-  }
+}
+
+ul.experiencias__titulo li {
+    display: flex;
+    flex-direction: column;
+    margin-left: .6rem;
+    gap: .3rem;
+    
+}
 
   ul.lista__experiencias li {
     display: flex;
@@ -19,7 +27,7 @@
   }
   
   ul.lista__experiencias li a img{
-    margin: 0 20px;
+    padding: 0 20px;
   }
 
 .periodo,
@@ -33,4 +41,14 @@
 .localizacao {
     color: var(--cor-cinza)
 }
+
+.idiomas__dados {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  border-bottom: 1px solid var(--cor-cinza);
+}
+
+
 
