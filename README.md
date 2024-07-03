@@ -20,7 +20,7 @@
 <li> Day 04 - Seção: Atividades e Sobre ✅
 <li> Day 05 - Seção: Experiências ✅
 <li> Day 06 - Seção: Formação Acadêmica e Idiomas ✅
-<li> Day 07 - Seção: Sugestões
+<li> Day 07 - Seção: Sugestões ✅
 
 # 💻 Tecnologias:
 
@@ -34,10 +34,9 @@ Projeto desenvolvido utilizando as seguintes tecnologias:
 # 📷 Screenshots:
 
 <div align="center">
-<h3>Páginas em Desenvolvimento</h3><br>
-
-</div>
-      
+<h3>Páginas Completa</h3><br>
+    <a target="_blank" href="https://optimus-tech-jet.vercel.app](https://pagina-linkekin.vercel.app">
+      <img width="74.8%" src="https://github.com/filipe-oliveiradev/Pagina-LinkekIn/assets/157177590/b8ef2288-d83f-433b-9256-3a01b4e664d2" alt="Página LinkedIn versao desktop"></a>
 </div>
 
 # 👨🏻‍💻 Desenvolvedor:
