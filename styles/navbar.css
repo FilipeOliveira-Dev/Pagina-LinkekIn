@@ -60,6 +60,11 @@
     color: var(--cor-branco);
 }
 
+.navbar__item a:hover {
+    color: var(--cor-azul);
+    font-weight: 400;
+}
+
 .navbar__item:last-child{
     margin-left: .2rem;
     border-left: 1px solid var(--cor-branco);

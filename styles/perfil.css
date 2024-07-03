@@ -68,6 +68,11 @@
     text-decoration: none;
 }
 
+.dados__contato:hover{
+    color: var(--cor-branco);
+    cursor: pointer;
+  }
+
 .info__conexoes,
 .adicional__info {
     display: flex;
@@ -93,10 +98,22 @@
     background-color: var(--cor-azul);
 }
 
+.info__mensagem:hover {
+    background-color: var(--section-bg);
+    border: 1px solid var(--cor-azul);
+    color: var(--cor-azul);
+}
+
 .info__mais {
     color: var(--cor-azul);
     background-color: var(--section-bg);
     border: 1px solid var(--cor-azul);
+}
+
+.info__mais:hover {
+    background-color: var(--cor-azul);
+    border: 1px solid var(--cor-azul);
+    color: var(--cor-preto);
 }
 
 .perfil-detalhes-carreira{
@@ -118,4 +135,9 @@
   .perfil-detalhes-carreira h2{
     text-decoration: none;
     color: var(--cor-branco);
+  }
+
+  .perfil-detalhes-carreira h2:hover{
+    text-decoration: none;
+    color: var(--cor-azul);
   }
